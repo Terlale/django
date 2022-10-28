@@ -1,6 +1,29 @@
+i{
+    width: 229px;
+    height: 35px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    list-style: none;
+    margin-bottom: 5px;
+}
 li a {
-    color: black;
+    color: blue;
+    text-decoration: none;
 }
 body {
-    background: white url("images/background.png") no-repeat;
+    background: rgba(224 224 224 / 75%);
+}
+
+li:hover{
+    background-color: rgba(209, 209, 209, 0.75);
+}
+
+li a:hover{
+    
 }
